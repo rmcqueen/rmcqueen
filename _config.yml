@@ -9,6 +9,7 @@ defaults:
     scope:
         path: ""
         type: "posts"
+        paginate: 10
     values:
         layout: "post"
         permalink: :categories/:year/:month/:day/:title
