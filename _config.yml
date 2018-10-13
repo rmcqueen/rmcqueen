@@ -1,1 +1,14 @@
-theme: jekyll-theme-cayman
+defaults
+  -
+    scope:
+        path: ""
+    values:
+        layout: "default"
+        author: "Ryan McQueen"
+  -
+    scope:
+        path: ""
+        type: "posts"
+    values:
+        layout: "post"
+        permalink: :categories/:year/:month/:day/:title
