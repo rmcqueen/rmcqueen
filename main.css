@@ -1,6 +1,8 @@
 .page-divider {
     border-bottom: 1px solid #000000;
     border-bottom-width: 2px;
+    width: 75%;
+    margin: auto;
 }
 
 .icon {
@@ -50,3 +52,4 @@ footer {
     bottom: 0;
     position: fixed;
 }
+
